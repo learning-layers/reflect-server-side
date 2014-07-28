@@ -1,0 +1,164 @@
+
+<h1 class="sectionedit1" id="stack">Stack</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Stack" [1-21] -->
+<h2 class="sectionedit2" id="list_all_stacks_with_questions_of_the_user_get_request">List all stacks with questions of the user (Get Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/stack" class="urlextern" title="http://localhost/web_ponty/index.php/api/stack"  rel="nofollow">http://localhost/web_ponty/index.php/api/stack</a>
+</p>
+
+<p>
+<em>Response</em>
+</p>
+
+<p>
+[ {
+</p>
+<pre class="code">&quot;id&quot; : &quot;1&quot;,
+&quot;name&quot; : &quot;Daily Business Stack&quot;,
+&quot;description&quot; : &quot;&quot;,
+&quot;user_id&quot; : &quot;2&quot;,
+&quot;created&quot; : &quot;2013-10-29 16:01:35&quot;,
+&quot;public&quot; : &quot;0&quot;,
+&quot;publickey&quot; : null</pre>
+
+<p>
+}, {
+</p>
+<pre class="code">&quot;id&quot; : &quot;2&quot;,
+&quot;name&quot; : &quot;Meeting Stack&quot;,
+&quot;description&quot; : &quot;&quot;,
+&quot;user_id&quot; : &quot;2&quot;,
+&quot;created&quot; : &quot;2013-10-29 16:03:42&quot;,
+&quot;public&quot; : &quot;1&quot;,
+&quot;publickey&quot; : &quot;wVB1KiN7&quot;,
+&quot;questions&quot; : [ {
+  &quot;id&quot; : &quot;1&quot;,
+  &quot;public&quot; : &quot;1&quot;,
+  &quot;name&quot; : &quot;How many people have been there?&quot;,
+  &quot;category_id&quot; : null,
+  &quot;rating&quot; : &quot;0&quot;,
+  &quot;created&quot; : &quot;2013-10-29 16:04:35&quot;,
+  &quot;rating_count&quot; : &quot;0&quot;,
+  &quot;rating_sum&quot; : &quot;0&quot;
+}, {
+  &quot;id&quot; : &quot;2&quot;,
+  &quot;public&quot; : &quot;1&quot;,
+  &quot;name&quot; : &quot;What was the reason for the meeting?&quot;,
+  &quot;category_id&quot; : null,
+  &quot;rating&quot; : &quot;0&quot;,
+  &quot;created&quot; : &quot;2013-10-29 16:04:41&quot;,
+  &quot;rating_count&quot; : &quot;0&quot;,
+  &quot;rating_sum&quot; : &quot;0&quot;
+} ]</pre>
+
+<p>
+}, {
+</p>
+<pre class="code">&quot;id&quot; : &quot;3&quot;,
+&quot;name&quot; : &quot;Special Stack&quot;,
+&quot;description&quot; : &quot;This is a very special stack!&quot;,
+&quot;user_id&quot; : &quot;2&quot;,
+&quot;created&quot; : &quot;2013-10-31 11:33:27&quot;,
+&quot;public&quot; : &quot;0&quot;,
+&quot;publickey&quot; : null</pre>
+
+<p>
+} ]
+</p>
+
+</div>
+<!-- EDIT2 SECTION "List all stacks with questions of the user (Get Request)" [22-1169] -->
+<h2 class="sectionedit3" id="create_a_new_stack_post_request">Create a new stack (Post Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/stack" class="urlextern" title="http://localhost/web_ponty/index.php/api/stack"  rel="nofollow">http://localhost/web_ponty/index.php/api/stack</a>
+</p>
+
+<p>
+<em>Parameter</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> name = New Stack</div>
+</li>
+<li class="level1"><div class="li"> description = This is a new stack</div>
+</li>
+</ul>
+
+<p>
+<em>Response for successfully creating a stack</em>
+</p>
+
+<p>
+{
+</p>
+<pre class="code">&quot;name&quot; : &quot;New Stack&quot;,
+&quot;user_id&quot; : &quot;2&quot;,
+&quot;id&quot; : &quot;4&quot;,
+&quot;description&quot; : &quot;This is a new stack&quot;,
+&quot;created&quot; : null,</pre>
+
+<p>
+}
+</p>
+
+</div>
+<!-- EDIT3 SECTION "Create a new stack (Post Request)" [1170-1511] -->
+<h2 class="sectionedit4" id="update_a_stack_post_request">Update a stack (Post Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/stack/[id]" class="urlextern" title="http://localhost/web_ponty/index.php/api/stack/[id]"  rel="nofollow">http://localhost/web_ponty/index.php/api/stack/[id]</a>
+</p>
+
+<p>
+<em>Parameter</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> name = Changed Stack</div>
+</li>
+<li class="level1"><div class="li"> description = This is a changed stack</div>
+</li>
+</ul>
+
+<p>
+<em>Response for successfully updated a stack</em>
+</p>
+
+<p>
+{
+</p>
+<pre class="code">&quot;name&quot; : &quot;Changed Stack&quot;,
+&quot;user_id&quot; : &quot;2&quot;,
+&quot;id&quot; : &quot;4&quot;,
+&quot;description&quot; : &quot;This is a changed stack&quot;,
+&quot;created&quot; : null,</pre>
+
+<p>
+}
+</p>
+
+</div>
+<!-- EDIT4 SECTION "Update a stack (Post Request)" [1512-1868] -->
+<h3 class="sectionedit5" id="delete_a_stack_delete_request">Delete a Stack (Delete Request)</h3>
+<div class="level3">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/stack/[id]" class="urlextern" title="http://localhost/web_ponty/index.php/api/stack/[id]"  rel="nofollow">http://localhost/web_ponty/index.php/api/stack/[id]</a>
+</p>
+
+<p>
+<em>Response for successfully deleting a stack (Count of deleted records)</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> 1</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT5 SECTION "Delete a Stack (Delete Request)" [1869-] -->

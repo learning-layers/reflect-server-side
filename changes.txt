@@ -1,0 +1,2 @@
+Made a change here to get the bootstrap plugin running with the URL-manager:
+C:\wamp\www\web_ponty\protected\extensions\bootstrap\widgets\TbBaseMenu.php

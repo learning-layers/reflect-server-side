@@ -1,0 +1,87 @@
+====== Questions ======
+
+===== Getting all public Questions (Get Request) =====
+
+http://localhost/web_ponty/index.php/api/question
+
+//Sample Response//
+
+[ {
+  "id" : "1",
+  "public" : "1",
+  "name" : "Why is green not red?",
+  "category_id" : null,
+  "rating" : "0",
+  "created" : "2013-10-29 16:04:35",
+  "rating_count" : "0",
+  "rating_sum" : "0"
+}, {
+  "id" : "2",
+  "public" : "1",
+  "name" : "What about blue?",
+  "category_id" : null,
+  "rating" : "0",
+  "created" : "2013-10-29 16:04:41",
+  "rating_count" : "0",
+  "rating_sum" : "0"
+} ]
+
+===== Create a Question (Post Request) =====
+
+http://localhost/web_ponty/index.php/api/question
+
+//Parameter//
+
+  * name = New Question
+  * category_id = [id]
+  * stack_id = [id]
+
+
+//Sample Response//
+
+{
+  "public" : 0,
+  "blocked" : 0,
+  "rating" : "0",
+  "rating_count" : 0,
+  "rating_sum" : 0,
+  "name" : "New Question",
+  "id" : "3",
+  "stack_id" : null,
+  "category_id" : null,
+  "created" : null
+}
+
+===== Update a Question (Post Request) =====
+
+http://localhost/web_ponty/index.php/api/question/[id]
+
+//Parameter//
+
+  * name = Updated Question
+  * category_id = [id]
+  * stack_id = [id]
+
+
+//Sample Response//
+
+{
+  "id" : "1",
+  "public" : "1",
+  "name" : "Updated Question",
+  "blocked" : "0",
+  "stack_id" : "6",
+  "category_id" : null,
+  "rating" : "0",
+  "created" : "2013-10-29 16:04:35",
+  "rating_count" : "0",
+  "rating_sum" : "0"
+}
+
+===== Delete a Question (Delete Request) =====
+
+http://localhost/web_ponty/index.php/api/question/[id]
+
+Response for successfully deleting a question (Count of deleted records)
+
+  * 1

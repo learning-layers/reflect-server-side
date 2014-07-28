@@ -1,0 +1,126 @@
+
+<h1 class="sectionedit1" id="answers">Answers</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Answers" [1-23] -->
+<h2 class="sectionedit2" id="get_all_answers_of_one_question_get_request">Get all answers of one question (Get Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/question/1" class="urlextern" title="http://localhost/web_ponty/index.php/api/question/1"  rel="nofollow">http://localhost/web_ponty/index.php/api/question/1</a>
+</p>
+
+<p>
+<em>Response</em>
+</p>
+
+<p>
+[ {
+</p>
+<pre class="code">&quot;id&quot; : &quot;1&quot;,
+&quot;text&quot; : &quot;Today i had 20 patients!&quot;,
+&quot;question_id&quot; : &quot;1&quot;,
+&quot;created&quot; : &quot;2013-11-13 11:22:13&quot;</pre>
+
+<p>
+}, {
+</p>
+<pre class="code">&quot;id&quot; : &quot;2&quot;,
+&quot;text&quot; : &quot;I didn&#039;t have any urgent case today...&quot;,
+&quot;question_id&quot; : &quot;1&quot;,
+&quot;created&quot; : &quot;2013-11-13 11:22:34&quot;</pre>
+
+<p>
+} ]
+</p>
+
+</div>
+<!-- EDIT2 SECTION "Get all answers of one question (Get Request)" [24-401] -->
+<h2 class="sectionedit3" id="answer_to_a_specific_question_post_request">Answer to a specific question (Post Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/answer" class="urlextern" title="http://localhost/web_ponty/index.php/api/answer"  rel="nofollow">http://localhost/web_ponty/index.php/api/answer</a>
+</p>
+
+<p>
+<em>Parameter</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> text= New Answer</div>
+</li>
+<li class="level1"><div class="li"> question_id = [id]</div>
+</li>
+</ul>
+
+<p>
+<em>Response for successfully creating a answer</em>
+</p>
+
+<p>
+{
+</p>
+<pre class="code">&quot;question_id&quot; : &quot;2&quot;,
+&quot;text&quot; : &quot;New Answer&quot;,
+&quot;id&quot; : &quot;3&quot;,
+&quot;created&quot; : null</pre>
+
+<p>
+}
+</p>
+
+</div>
+<!-- EDIT3 SECTION "Answer to a specific question (Post Request)" [402-704] -->
+<h2 class="sectionedit4" id="change_a_answer_post_rquest">Change a answer (Post Rquest)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/answer/[id]" class="urlextern" title="http://localhost/web_ponty/index.php/api/answer/[id]"  rel="nofollow">http://localhost/web_ponty/index.php/api/answer/[id]</a>
+</p>
+
+<p>
+<em>Parameter</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> text= Updated Answer</div>
+</li>
+<li class="level1"><div class="li"> question_id = [id]</div>
+</li>
+</ul>
+
+<p>
+<em>Response for successfully updating a answer</em>
+</p>
+
+<p>
+{
+</p>
+<pre class="code">&quot;question_id&quot; : &quot;2&quot;,
+&quot;text&quot; : &quot;Updated Answer&quot;,
+&quot;id&quot; : &quot;3&quot;,
+&quot;created&quot; : &quot;2013-11-13 11:22:34&quot;</pre>
+
+<p>
+}
+</p>
+
+</div>
+<!-- EDIT4 SECTION "Change a answer (Post Rquest)" [705-1021] -->
+<h2 class="sectionedit5" id="delete_a_specific_answer_delete_request">Delete a specific answer (Delete Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/answer/2" class="urlextern" title="http://localhost/web_ponty/index.php/api/answer/2"  rel="nofollow">http://localhost/web_ponty/index.php/api/answer/2</a>
+</p>
+
+<p>
+<em>Response for successfully deleting a answer (Count of deleted records)</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> 1</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT5 SECTION "Delete a specific answer (Delete Request)" [1022-] -->

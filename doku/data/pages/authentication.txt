@@ -1,0 +1,18 @@
+====== Authentication ======
+
+The Reflect API is cookie based. You have to provide 3 basic parameters in every request.
+
+  * E-Mail
+  * Password as [[http://en.wikipedia.org/wiki/SHA-1|SHA-1]]
+  * API Key
+
+
+
+//Here is a example://
+----
+  * X_EMAIL: sample@example.org
+  * X_PASSWORD: 5c4a8d09cer762af61eaaa20943dc26494f8941b
+  * X_APIKEY: b910d053fb3973bbb6zza96f28b4b7e7413e4d66
+
+----
+

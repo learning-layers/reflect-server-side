@@ -1,0 +1,53 @@
+1384341681	127.0.0.1	C	start		created	
+1384341924	127.0.0.1	C	gettingstarted		created	
+1384342026	127.0.0.1	E	gettingstarted			
+1384342344	127.0.0.1	E	gettingstarted			
+1384342356	127.0.0.1	E	gettingstarted			
+1384342367	127.0.0.1	E	gettingstarted			
+1384342388	127.0.0.1	E	start			
+1384342501	127.0.0.1	E	gettingstarted			
+1384342558	127.0.0.1	E	gettingstarted			
+1384342575	127.0.0.1	E	gettingstarted			
+1384342847	127.0.0.1	C	authentication		created	
+1384342868	127.0.0.1	E	authentication			
+1384342917	127.0.0.1	E	authentication			
+1384342941	127.0.0.1	E	authentication			
+1384342982	127.0.0.1	E	start			
+1384342989	127.0.0.1	E	start			
+1384343000	127.0.0.1	E	start			
+1384343676	127.0.0.1	C	category		created	
+1384343713	127.0.0.1	E	start			
+1384343771	127.0.0.1	E	authentication			
+1384343782	127.0.0.1	E	authentication			
+1384343790	127.0.0.1	E	authentication			
+1384343802	127.0.0.1	E	authentication			
+1384344060	127.0.0.1	C	question		created	
+1384344105	127.0.0.1	E	start			
+1384344153	127.0.0.1	E	question			
+1384344273	127.0.0.1	C	stacks		created	
+1384344290	127.0.0.1	E	start			
+1384344371	127.0.0.1	C	answers		created	
+1384344395	127.0.0.1	E	start			
+1384345761	127.0.0.1	E	stacks			
+1384345848	127.0.0.1	E	answers			
+1384345866	127.0.0.1	E	answers			
+1384347194	127.0.0.1	E	stacks			
+1384347220	127.0.0.1	E	stacks			
+1384347904	127.0.0.1	E	stacks			
+1384347925	127.0.0.1	E	stacks			
+1384348011	127.0.0.1	E	stacks			
+1384350482	127.0.0.1	E	question			
+1384350516	127.0.0.1	E	category			
+1384350805	127.0.0.1	E	question			
+1384350818	127.0.0.1	E	question			
+1384351227	127.0.0.1	E	answers			
+1384351266	127.0.0.1	E	answers			
+1384351500	127.0.0.1	E	answers			
+1384351526	127.0.0.1	E	answers			
+1384351898	127.0.0.1	E	answers			
+1384352277	127.0.0.1	E	answers			
+1384352337	127.0.0.1	E	question			
+1384352395	127.0.0.1	E	stacks			
+1384352409	127.0.0.1	E	stacks			
+1384352432	127.0.0.1	E	stacks			
+1384352477	127.0.0.1	E	answers			

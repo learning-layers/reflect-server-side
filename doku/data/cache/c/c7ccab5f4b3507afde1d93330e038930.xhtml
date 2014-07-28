@@ -1,0 +1,150 @@
+
+<h1 class="sectionedit1" id="questions">Questions</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT1 SECTION "Questions" [1-25] -->
+<h2 class="sectionedit2" id="getting_all_public_questions_get_request">Getting all public Questions (Get Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/question" class="urlextern" title="http://localhost/web_ponty/index.php/api/question"  rel="nofollow">http://localhost/web_ponty/index.php/api/question</a>
+</p>
+
+<p>
+<em>Sample Response</em>
+</p>
+
+<p>
+[ {
+</p>
+<pre class="code">&quot;id&quot; : &quot;1&quot;,
+&quot;public&quot; : &quot;1&quot;,
+&quot;name&quot; : &quot;Why is green not red?&quot;,
+&quot;category_id&quot; : null,
+&quot;rating&quot; : &quot;0&quot;,
+&quot;created&quot; : &quot;2013-10-29 16:04:35&quot;,
+&quot;rating_count&quot; : &quot;0&quot;,
+&quot;rating_sum&quot; : &quot;0&quot;</pre>
+
+<p>
+}, {
+</p>
+<pre class="code">&quot;id&quot; : &quot;2&quot;,
+&quot;public&quot; : &quot;1&quot;,
+&quot;name&quot; : &quot;What about blue?&quot;,
+&quot;category_id&quot; : null,
+&quot;rating&quot; : &quot;0&quot;,
+&quot;created&quot; : &quot;2013-10-29 16:04:41&quot;,
+&quot;rating_count&quot; : &quot;0&quot;,
+&quot;rating_sum&quot; : &quot;0&quot;</pre>
+
+<p>
+} ]
+</p>
+
+</div>
+<!-- EDIT2 SECTION "Getting all public Questions (Get Request)" [26-546] -->
+<h2 class="sectionedit3" id="create_a_question_post_request">Create a Question (Post Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/question" class="urlextern" title="http://localhost/web_ponty/index.php/api/question"  rel="nofollow">http://localhost/web_ponty/index.php/api/question</a>
+</p>
+
+<p>
+<em>Parameter</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> name = New Question</div>
+</li>
+<li class="level1"><div class="li"> category_id = [id]</div>
+</li>
+<li class="level1"><div class="li"> stack_id = [id]</div>
+</li>
+</ul>
+
+<p>
+<em>Sample Response</em>
+</p>
+
+<p>
+{
+</p>
+<pre class="code">&quot;public&quot; : 0,
+&quot;blocked&quot; : 0,
+&quot;rating&quot; : &quot;0&quot;,
+&quot;rating_count&quot; : 0,
+&quot;rating_sum&quot; : 0,
+&quot;name&quot; : &quot;New Question&quot;,
+&quot;id&quot; : &quot;3&quot;,
+&quot;stack_id&quot; : null,
+&quot;category_id&quot; : null,
+&quot;created&quot; : null</pre>
+
+<p>
+}
+</p>
+
+</div>
+<!-- EDIT3 SECTION "Create a Question (Post Request)" [547-951] -->
+<h2 class="sectionedit4" id="update_a_question_post_request">Update a Question (Post Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/question/[id]" class="urlextern" title="http://localhost/web_ponty/index.php/api/question/[id]"  rel="nofollow">http://localhost/web_ponty/index.php/api/question/[id]</a>
+</p>
+
+<p>
+<em>Parameter</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> name = Updated Question</div>
+</li>
+<li class="level1"><div class="li"> category_id = [id]</div>
+</li>
+<li class="level1"><div class="li"> stack_id = [id]</div>
+</li>
+</ul>
+
+<p>
+<em>Sample Response</em>
+</p>
+
+<p>
+{
+</p>
+<pre class="code">&quot;id&quot; : &quot;1&quot;,
+&quot;public&quot; : &quot;1&quot;,
+&quot;name&quot; : &quot;Updated Question&quot;,
+&quot;blocked&quot; : &quot;0&quot;,
+&quot;stack_id&quot; : &quot;6&quot;,
+&quot;category_id&quot; : null,
+&quot;rating&quot; : &quot;0&quot;,
+&quot;created&quot; : &quot;2013-10-29 16:04:35&quot;,
+&quot;rating_count&quot; : &quot;0&quot;,
+&quot;rating_sum&quot; : &quot;0&quot;</pre>
+
+<p>
+}
+</p>
+
+</div>
+<!-- EDIT4 SECTION "Update a Question (Post Request)" [952-1393] -->
+<h2 class="sectionedit5" id="delete_a_question_delete_request">Delete a Question (Delete Request)</h2>
+<div class="level2">
+
+<p>
+<a href="http://localhost/web_ponty/index.php/api/question/[id]" class="urlextern" title="http://localhost/web_ponty/index.php/api/question/[id]"  rel="nofollow">http://localhost/web_ponty/index.php/api/question/[id]</a>
+</p>
+
+<p>
+Response for successfully deleting a question (Count of deleted records)
+</p>
+<ul>
+<li class="level1"><div class="li"> 1</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT5 SECTION "Delete a Question (Delete Request)" [1394-] -->

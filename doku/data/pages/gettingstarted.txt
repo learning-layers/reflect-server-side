@@ -1,0 +1,13 @@
+====== Getting started ======
+
+
+At first you have to register on Reflect Page as normal user. In the menu on the left you should choose "Developer"
+
+{{:developer_menu.png?nolink&200|}}
+
+Now you have to request your API Key by pressing the button and fill out the provided form. Please understand, that a admin has to verify and accept you request. This can take several time.
+
+{{::developer_fullscreen.png?nolink&800|}}
+
+After accepting your request you will be informed by e-mail and you will find your key where you requested it.
+

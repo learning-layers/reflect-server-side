@@ -1,0 +1,63 @@
+====== Answers ======
+
+===== Get all answers of one question (Get Request) =====
+
+http://localhost/web_ponty/index.php/api/question/1
+
+//Response//
+
+[ {
+  "id" : "1",
+  "text" : "Today i had 20 patients!",
+  "question_id" : "1",
+  "created" : "2013-11-13 11:22:13"
+}, {
+  "id" : "2",
+  "text" : "I didn't have any urgent case today...",
+  "question_id" : "1",
+  "created" : "2013-11-13 11:22:34"
+} ]
+
+===== Answer to a specific question (Post Request) =====
+
+http://localhost/web_ponty/index.php/api/answer
+
+//Parameter//
+
+  * text= New Answer
+  * question_id = [id]
+
+//Response for successfully creating a answer//
+
+{
+  "question_id" : "2",
+  "text" : "New Answer",
+  "id" : "3",
+  "created" : null
+}
+
+
+===== Change a answer (Post Rquest) =====
+
+http://localhost/web_ponty/index.php/api/answer/[id]
+
+//Parameter//
+
+  * text= Updated Answer
+  * question_id = [id]
+
+//Response for successfully updating a answer//
+
+{
+  "question_id" : "2",
+  "text" : "Updated Answer",
+  "id" : "3",
+  "created" : "2013-11-13 11:22:34"
+}
+
+===== Delete a specific answer (Delete Request) =====
+
+http://localhost/web_ponty/index.php/api/answer/2
+
+//Response for successfully deleting a answer (Count of deleted records)//
+  * 1

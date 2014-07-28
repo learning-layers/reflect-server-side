@@ -1,0 +1,13 @@
+a:36:{i:0;a:3:{i:0;s:14:"document_start";i:1;a:0:{}i:2;i:0;}i:1;a:3:{i:0;s:6:"header";i:1;a:3:{i:0;s:8:"Category";i:1;i:1;i:2;i:1;}i:2;i:1;}i:2;a:3:{i:0;s:12:"section_open";i:1;a:1:{i:0;i:1;}i:2;i:1;}i:3;a:3:{i:0;s:13:"section_close";i:1;a:0:{}i:2;i:25;}i:4;a:3:{i:0;s:6:"header";i:1;a:3:{i:0;s:39:"Retrieving all Categories (Get Request)";i:1;i:2;i:2;i:25;}i:2;i:25;}i:5;a:3:{i:0;s:12:"section_open";i:1;a:1:{i:0;i:2;}i:2;i:25;}i:6;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:25;}i:7;a:3:{i:0;s:12:"externallink";i:1;a:2:{i:0;s:49:"http://localhost/web_ponty/index.php/api/category";i:1;N;}i:2;i:78;}i:8;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:127;}i:9;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:127;}i:10;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:65:"With this request you will get all categories of the Reflect App.";}i:2;i:129;}i:11;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:194;}i:12;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:194;}i:13;a:3:{i:0;s:13:"emphasis_open";i:1;a:0:{}i:2;i:196;}i:14;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:16:"Sample response:";}i:2;i:198;}i:15;a:3:{i:0;s:14:"emphasis_close";i:1;a:0:{}i:2;i:214;}i:16;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:216;}i:17;a:3:{i:0;s:2:"hr";i:1;a:0:{}i:2;i:216;}i:18;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:216;}i:19;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:3:"[ {";}i:2;i:222;}i:20;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:225;}i:21;a:3:{i:0;s:12:"preformatted";i:1;a:1:{i:0;s:103:""id" : "4",
+"name" : "Medicine",
+"visible" : "1",
+"description" : "",
+"created" : "0000-00-00 00:00:00"";}i:2;i:225;}i:22;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:225;}i:23;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:4:"}, {";}i:2;i:340;}i:24;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:344;}i:25;a:3:{i:0;s:12:"preformatted";i:1;a:1:{i:0;s:105:""id" : "5",
+"name" : "Informatik",
+"visible" : "1",
+"description" : "",
+"created" : "0000-00-00 00:00:00"";}i:2;i:344;}i:26;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:344;}i:27;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:4:"}, {";}i:2;i:461;}i:28;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:465;}i:29;a:3:{i:0;s:12:"preformatted";i:1;a:1:{i:0;s:109:""id" : "6",
+"name" : "Other business",
+"visible" : "1",
+"description" : "",
+"created" : "0000-00-00 00:00:00"";}i:2;i:465;}i:30;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:465;}i:31;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:3:"} ]";}i:2;i:586;}i:32;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:589;}i:33;a:3:{i:0;s:2:"hr";i:1;a:0:{}i:2;i:589;}i:34;a:3:{i:0;s:13:"section_close";i:1;a:0:{}i:2;i:594;}i:35;a:3:{i:0;s:12:"document_end";i:1;a:0:{}i:2;i:594;}}

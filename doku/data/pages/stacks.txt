@@ -1,0 +1,102 @@
+====== Stack ======
+
+===== List all stacks with questions of the user (Get Request) =====
+
+http://localhost/web_ponty/index.php/api/stack
+
+
+//Response//
+
+[ {
+  "id" : "1",
+  "name" : "Daily Business Stack",
+  "description" : "",
+  "user_id" : "2",
+  "created" : "2013-10-29 16:01:35",
+  "public" : "0",
+  "publickey" : null
+}, {
+  "id" : "2",
+  "name" : "Meeting Stack",
+  "description" : "",
+  "user_id" : "2",
+  "created" : "2013-10-29 16:03:42",
+  "public" : "1",
+  "publickey" : "wVB1KiN7",
+  "questions" : [ {
+    "id" : "1",
+    "public" : "1",
+    "name" : "How many people have been there?",
+    "category_id" : null,
+    "rating" : "0",
+    "created" : "2013-10-29 16:04:35",
+    "rating_count" : "0",
+    "rating_sum" : "0"
+  }, {
+    "id" : "2",
+    "public" : "1",
+    "name" : "What was the reason for the meeting?",
+    "category_id" : null,
+    "rating" : "0",
+    "created" : "2013-10-29 16:04:41",
+    "rating_count" : "0",
+    "rating_sum" : "0"
+  } ]
+}, {
+  "id" : "3",
+  "name" : "Special Stack",
+  "description" : "This is a very special stack!",
+  "user_id" : "2",
+  "created" : "2013-10-31 11:33:27",
+  "public" : "0",
+  "publickey" : null
+} ]
+
+
+===== Create a new stack (Post Request) =====
+
+http://localhost/web_ponty/index.php/api/stack
+
+//Parameter//
+
+  * name = New Stack
+  * description = This is a new stack
+
+//Response for successfully creating a stack//
+
+{
+  "name" : "New Stack",
+  "user_id" : "2",
+  "id" : "4",
+  "description" : "This is a new stack",
+  "created" : null,
+}
+
+
+===== Update a stack (Post Request) =====
+
+http://localhost/web_ponty/index.php/api/stack/[id]
+
+//Parameter//
+
+  * name = Changed Stack
+  * description = This is a changed stack
+
+//Response for successfully updated a stack//
+
+{
+  "name" : "Changed Stack",
+  "user_id" : "2",
+  "id" : "4",
+  "description" : "This is a changed stack",
+  "created" : null,
+}
+
+==== Delete a Stack (Delete Request) ====
+
+
+http://localhost/web_ponty/index.php/api/stack/[id]
+
+//Response for successfully deleting a stack (Count of deleted records)//
+
+  * 1

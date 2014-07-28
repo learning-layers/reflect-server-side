@@ -1,0 +1,30 @@
+====== Category ======
+
+===== Retrieving all Categories (Get Request) =====
+
+http://localhost/web_ponty/index.php/api/category
+
+With this request you will get all categories of the Reflect App.
+
+//Sample response://
+----
+[ {
+  "id" : "4",
+  "name" : "Medicine",
+  "visible" : "1",
+  "description" : "",
+  "created" : "0000-00-00 00:00:00"
+}, {
+  "id" : "5",
+  "name" : "Informatik",
+  "visible" : "1",
+  "description" : "",
+  "created" : "0000-00-00 00:00:00"
+}, {
+  "id" : "6",
+  "name" : "Other business",
+  "visible" : "1",
+  "description" : "",
+  "created" : "0000-00-00 00:00:00"
+} ]
+----
